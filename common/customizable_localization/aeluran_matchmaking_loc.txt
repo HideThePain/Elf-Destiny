@@ -401,6 +401,14 @@ AeluranMatchmakingCandidateDescription = {
 	text = {
 		trigger = {
 			exists = scope:candidate_type
+			scope:candidate_type = flag:outstanding_breeding_stock
+		}
+		localization_key = matchmaking_outstanding_breeding_stock_candidate_title
+	}
+
+	text = {
+		trigger = {
+			exists = scope:candidate_type
 			scope:candidate_type = flag:aeluran_advisor
 		}
 		localization_key = matchmaking_aeluran_advisor_candidate_desc
@@ -567,6 +575,14 @@ AeluranMatchmakingCandidateOneSelectionText = {
 			scope:match_choice_1_type = flag:genetic_great_elf
 		}
 		localization_key = matchmaking_genetic_great_elf_candidate_selection_1
+	}
+
+	text = {
+		trigger = {
+			exists = scope:match_choice_1_type
+			scope:match_choice_1_type = flag:outstanding_breeding_stock
+		}
+		localization_key = matchmaking_outstanding_breeding_stock_candidate_selection_1
 	}
 
 	text = {
@@ -743,6 +759,14 @@ AeluranMatchmakingCandidateTwoSelectionText = {
 	text = {
 		trigger = {
 			exists = scope:match_choice_2_type
+			scope:match_choice_2_type = flag:outstanding_breeding_stock
+		}
+		localization_key = matchmaking_outstanding_breeding_stock_candidate_selection_2
+	}
+
+	text = {
+		trigger = {
+			exists = scope:match_choice_2_type
 			scope:match_choice_2_type = flag:aeluran_advisor
 		}
 		localization_key = matchmaking_aeluran_advisor_candidate_selection_2
@@ -914,6 +938,14 @@ AeluranMatchmakingCandidateThreeSelectionText = {
 	text = {
 		trigger = {
 			exists = scope:match_choice_3_type
+			scope:match_choice_3_type = flag:outstanding_breeding_stock
+		}
+		localization_key = matchmaking_outstanding_breeding_stock_candidate_selection_3
+	}
+
+	text = {
+		trigger = {
+			exists = scope:match_choice_3_type
 			scope:match_choice_3_type = flag:aeluran_advisor
 		}
 		localization_key = matchmaking_aeluran_advisor_candidate_selection_3
@@ -1080,6 +1112,14 @@ AeluranMatchmakingCandidateTagging = {
 			scope:candidate_type = flag:genetic_great_elf
 		}
 		localization_key = matchmaking_candidate_tag_genetic_great_elf
+	}
+
+	text = {
+		trigger = {
+			exists = scope:candidate_type
+			scope:candidate_type = flag:outstanding_breeding_stock
+		}
+		localization_key = matchmaking_candidate_tag_outstanding_breeding_stock
 	}
 
 	text = {

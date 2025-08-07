@@ -14,7 +14,7 @@ atlantis_great_harbor_01 = {
 
 	can_construct = {
 		scope:holder = {
-			highest_held_title_tier >= tier_kingdom
+			highest_held_title_tier >= tier_county
 		}
 	}
 	
@@ -58,7 +58,7 @@ atlantis_great_harbor_02 = {
 
 	can_construct = {
 		scope:holder = {
-			highest_held_title_tier >= tier_empire
+			highest_held_title_tier >= tier_county
 		}
 	}
 	
@@ -102,7 +102,8 @@ atlantis_great_harbor_03 = {
 
 	can_construct = {
 		scope:holder = {
-			has_title = title:e_great_atlantic_empire
+			highest_held_title_tier >= tier_county
+			#has_title = title:e_great_atlantic_empire
 			# requieres an alternative for mythical
 		}
 	}

@@ -2,20 +2,34 @@
 	type = pikemen
 	icon = abyssal_guardians
 	
-	damage = 30
-	toughness = 40
+	stack = 100
+	damage = 40
+	toughness = 50
 	pursuit = 10
-	screen = 30
-	
+	screen = 35
+
 	terrain_bonus = {
-		wetlands = { damage = 10 toughness = 10 }
-		floodplains = { damage = 5 toughness = 10 }
+		forest = { damage = 8 toughness = 8 }
+		taiga = { damage = 8 toughness = 8 }
+		jungle = { damage = 8 toughness = 8 }
+
+		wetlands = { damage = 15 toughness = 15 }
+		floodplains = { damage = 10 toughness = 10 }
 		farmlands = { damage = 5 toughness = 5 }
 		plains = { damage = 5 screen = 5 }
+		steppe = { damage = -5 toughness = -5 }
 		hills = { damage = -5 toughness = -10 }
+		
 		mountains = { damage = -10 toughness = -15 }
 		desert = { damage = -15 toughness = -15 }
 		desert_mountains = { damage = -20 toughness = -20 }
+		drylands = { damage = -10 toughness = -10 }
+		oasis = { damage = -5 toughness = -5 }
+	}
+
+	winter_bonus = {
+		normal_winter = { toughness = 8 screen = 6 }
+		harsh_winter = { toughness = 12 screen = 8 damage = -2 }
 	}
 
 	counters = {
@@ -33,8 +47,8 @@
 	buy_cost = { gold = schiltron_recruitment_cost }
 	low_maintenance_cost = { gold = schiltron_low_maint_cost }
 	high_maintenance_cost = { gold = schiltron_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
 
-	stack = 100
 	ai_quality = {
 		value = culture_ai_weight_pikemen
 		value = counter_synergy_ai_weight_pikemen

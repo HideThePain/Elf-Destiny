@@ -2,7 +2,7 @@
 
 - NEW! Aeluran Reformation Quest
 - NEW! visiting bloodline knight event
-- "People of The Bow" tradition now gives all elf characters level 1 bow Hastildur trait on 16th birthday
+- "People of The Bow" tradition now gives all elf characters level 1 bow Hastiluder trait on 16th birthday
 - Hopefully fixed the 0 matches matchmaking event bug, still some other bugs to clean up.
 - Fixed Game Rule Localization
 - Fixed Elf Faith Localization

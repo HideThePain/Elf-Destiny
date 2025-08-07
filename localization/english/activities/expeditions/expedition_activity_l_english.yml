@@ -14,7 +14,7 @@
   activity_window_character_adventurer:0 "Adventurer\n[Character.GetShortUINameNoTooltip|U]"
 
   base_camp_phase:0 "Preparing at Base Camp."
-  base_camp_desc:0 "Explore the ruins, discover what you can."
+  base_camp_phase_desc:0 "Explore the ruins, discover what you can."
 
   TRAVEL_NAME_FOR_activity_expedition:1 "[Character.GetFirstNamePossessiveNoTooltip] journey to the Expedition site."
 

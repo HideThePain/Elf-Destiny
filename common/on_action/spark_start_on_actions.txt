@@ -558,8 +558,8 @@ register_aeluran_hierarchy = {
 
 on_game_start_setup_expeditions = {
     effect = {
-        register_expedition_site = { BARONY_NAME = b_luch SITE_NAME = the_grand_portal }
-        set_portal_location = { BARONY_NAME = b_luch }
+        register_expedition_site = { BARONY_NAME = b_vokhma SITE_NAME = the_grand_portal }
+        set_portal_location = { BARONY_NAME = b_vokhma }
 
         # register_expedition_site = { BARONY_NAME = b_bellinzona SITE_NAME = fortress_tomb_of_the_dead_emperor }
         register_expedition_site = { BARONY_NAME = b_bellinzona SITE_NAME = fortress_tomb_of_the_dead_emperor }

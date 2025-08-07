@@ -6,7 +6,7 @@
 		description = crown_of_coral_desc
 		template = sea_elf_template
 		type = helmet
-		visuals = atlnatis_crown
+		visuals = atlantis_crown
 		modifier = crown_of_coral_modifier
 		rarity = famed
 		decaying = no
