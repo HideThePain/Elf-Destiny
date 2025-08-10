@@ -217,7 +217,7 @@ elf_destiny_main_story_events.002 = { # Restore the Portal part 1
 		# 	}
 		# }
 	}
-	option = { # Restore the Portal
+	option = { # Restore the Portal but stay chilling
 		name = elf_destiny_main_story_events.002.c
 		trigger = {
 			# Must Have All Portal Components

@@ -20,11 +20,7 @@ request_matchmaking_interaction = {
 			}
 			AND = {
 				scope:recipient = {
-					OR = {
-						is_close_or_extended_family_of = scope:actor
-						is_courtier_of = scope:actor
-						is_dynast = yes
-					}
+					is_close_or_extended_family_of = scope:actor
 					is_married = no
 					is_betrothed = no
 					is_adult = yes
@@ -57,7 +53,7 @@ request_matchmaking_interaction = {
 		# }
 	}
 	
-	cooldown = { months = 1 }
+	cooldown = { years = 1 }
 
 	is_valid_showing_failures_only = {
 		scope:actor = {
